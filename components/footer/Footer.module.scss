@@ -1,0 +1,37 @@
+@use '../../scss/abstracts/mixins';
+@use '../../scss/abstracts/variables';
+
+.footer {
+  padding-block: clamp(20px, calc(20vw + 20px), 40px);
+  padding-inline: clamp(20px, calc(15vw + 20px), 220px);
+  font-family: variables.$roboMono;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  p {
+    font-size: clamp(7.5px, 3vw, 15px);
+    transition: 1s;
+    &:hover {
+      transition: 0.33s;
+      color: variables.$teal;
+    }
+  }
+  a {
+    color: variables.$darkGrey;
+    margin-right: 0.5rem;
+    &:hover {
+      transition: 0.33s;
+      color: variables.$teal;
+    }
+  }
+}
+
+@include mixins.breakpoint('phone') {
+  .footer {
+    flex-direction: column;
+    text-align: center;
+    & > * {
+      margin-bottom: 5%;
+    }
+  }
+}
