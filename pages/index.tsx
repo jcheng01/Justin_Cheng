@@ -15,7 +15,7 @@ export default function Home() {
           name="description"
           content="I’m a front-end web developer specializing in building (and occasionally designing) exceptional digital experiences."
         />
-        <link rel="icon" href="/assets/favicon-32x32.png" />
+        <link rel="icon" href="/favicon-32x32.png" />
       </Head>
       <Navbar />
       <Hero />

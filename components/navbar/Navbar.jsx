@@ -37,7 +37,7 @@ const Navbar = () => {
           smooth={true}
           duration={100}
         >
-          <Image src="/favicon-32x32.png" height="45" width="45" alt="/" />
+          <Image src="/apple-touch-icon.png" height="45" width="45" alt="/" />
         </Link>
         <div className={styles.navBarEnd}>
           <ul className={styles.menuItems}>
@@ -101,7 +101,7 @@ const Navbar = () => {
                 duration={100}
               >
                 <Image
-                  src="/favicon-32x32.png"
+                  src="/assets/apple-touch-icon.png"
                   height="45"
                   width="45"
                   alt="/"
