@@ -29,18 +29,19 @@ const Hero = () => {
             browse around and get to know me and my projects!
           </p>
           <div>
-            <a
+            <Link
               href="https://www.linkedin.com/in/chengjustin0222/"
               target="_blank"
+              alt="linkedin"
             >
               <AiFillLinkedin
                 size={30}
                 href="https://www.linkedin.com/in/chengjustin0222/"
               />
-            </a>
-            <a href="https://github.com/jcheng01" target="_blank">
+            </Link>
+            <Link href="https://github.com/jcheng01" target="_blank">
               <AiFillGithub size={30} />
-            </a>
+            </Link>
           </div>
         </div>
       </section>

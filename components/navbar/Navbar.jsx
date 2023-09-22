@@ -101,7 +101,7 @@ const Navbar = () => {
                 duration={100}
               >
                 <Image
-                  src="/assets/apple-touch-icon.png"
+                  src="/apple-touch-icon.png"
                   height="45"
                   width="45"
                   alt="/"
