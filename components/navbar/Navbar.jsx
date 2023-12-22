@@ -1,8 +1,8 @@
-import Image from 'next/image';
-import { Link } from 'react-scroll';
-import styles from './Navbar.module.scss';
-import Hamburger from 'hamburger-react';
-import { useState, useEffect } from 'react';
+import Image from "next/image";
+import { Link } from "react-scroll";
+import styles from "./Navbar.module.scss";
+import Hamburger from "hamburger-react";
+import { useState, useEffect } from "react";
 
 const Navbar = () => {
   const [isOpen, setOpen] = useState(false);
@@ -15,8 +15,8 @@ const Navbar = () => {
       setIsScrolled(prevScrollPos > currentScrollPos);
       prevScrollPos = currentScrollPos;
     };
-    window.addEventListener('scroll', handleScroll);
-    return () => window.removeEventListener('scroll', handleScroll);
+    window.addEventListener("scroll", handleScroll);
+    return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
   const handleClick = () => {
@@ -90,7 +90,7 @@ const Navbar = () => {
         <div className={styles.hamburgerMenu}>
           <Hamburger toggled={isOpen} toggle={handleClick} />
           <div
-            className={`${styles.overlay} ${isOpen ? styles.showOverlay : ''}`}
+            className={`${styles.overlay} ${isOpen ? styles.showOverlay : ""}`}
           >
             <ul className={styles.menuItems} onClick={handleClick}>
               <Link
@@ -146,7 +146,7 @@ const Navbar = () => {
               </Link>
               <br />
               <a
-                href="/resume.2023.pdf"
+                href="/cheng2024.pdf"
                 target="_blank"
                 alt="resume file"
                 className={styles.btn}
