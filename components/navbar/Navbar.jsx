@@ -9,9 +9,9 @@ const Navbar = () => {
   const [isScrolled, setIsScrolled] = useState(true);
 
   useEffect(() => {
-    let prevScrollPos = window.pageYOffset;
+    let prevScrollPos = window.scrollY;
     const handleScroll = () => {
-      const currentScrollPos = window.pageYOffset;
+      const currentScrollPos = window.scrollY;
       setIsScrolled(prevScrollPos > currentScrollPos);
       prevScrollPos = currentScrollPos;
     };
@@ -146,7 +146,7 @@ const Navbar = () => {
               </Link>
               <br />
               <a
-                href="/cheng2024.pdf"
+                href=""
                 target="_blank"
                 alt="resume file"
                 className={styles.btn}
