@@ -78,7 +78,7 @@ const Navbar = () => {
               </li>
             </Link>
             <a
-              href="/resume.2023.pdf"
+              href="/cheng2025.pdf"
               target="_blank"
               alt="resume file"
               className={styles.btn}
@@ -146,7 +146,7 @@ const Navbar = () => {
               </Link>
               <br />
               <a
-                href=""
+                href="/public/cheng2025.pdf"
                 target="_blank"
                 alt="resume file"
                 className={styles.btn}

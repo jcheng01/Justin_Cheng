@@ -37,10 +37,7 @@ const Hero = () => {
               target="_blank"
               alt="linkedin"
             >
-              <AiFillLinkedin
-                size={30}
-                href="https://www.linkedin.com/in/chengjustin0222/"
-              />
+              <AiFillLinkedin size={30} />
             </Link>
             <Link href="https://github.com/jcheng01" target="_blank">
               <AiFillGithub size={30} />
