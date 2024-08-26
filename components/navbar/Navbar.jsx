@@ -78,7 +78,7 @@ const Navbar = () => {
               </li>
             </Link>
             <a
-              href="/cheng2025.pdf"
+              href="/cheng2025.may.pdf"
               target="_blank"
               alt="resume file"
               className={styles.btn}
